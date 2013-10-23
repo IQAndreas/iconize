@@ -1,0 +1,14 @@
+/* websites */
+
+/* videos and movies */
+a[href *="youtube.com/watch?"], a[href *="sevenload.com/videos/"], a[href *="metacafe.com/watch/"] { 
+	padding: 5px 20px 5px 0;
+	background: transparent url(icons/icon_film.gif) no-repeat center right;
+}
+
+/* pictures and image sharing */
+a[href *="flickr.com/photos/"], a[href *="zooomr.com"], a[href *="imageshack.us"], a[href *="bubbleshare.com"], a[href *="sevenload.com/bilder/"] { 
+	padding: 5px 20px 5px 0;
+	background: transparent url(icons/icon_pic.gif) no-repeat center right;
+}
+
