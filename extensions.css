@@ -1,17 +1,4 @@
-/* Iconize 0.5 */
-
-/* websites (pictures and movies) */
-a[href *="youtube.com/watch?"], a[href *="sevenload.com/videos/"], a[href *="metacafe.com/watch/"] { 
-	padding: 5px 20px 5px 0;
-	background: transparent url(icons/icon_film.gif) no-repeat center right;
-}
-
-a[href *="flickr.com/photos/"], a[href *="zooomr.com"], a[href *="imageshack.us"], a[href *="bubbleshare.com"], a[href *="sevenload.com/bilder/"] { 
-	padding: 5px 20px 5px 0;
-	background: transparent url(icons/icon_pic.gif) no-repeat center right;
-}
-
-/* extensions */
+/* filename extensions */
 
 a[href$='.doc'], a[href$='.rtf'] {
 	padding: 5px 20px 5px 0;
@@ -123,56 +110,3 @@ a[href$='.mp3'], a[href$='.wav'], a[href$='.ogg'], a[href$='.wma'], a[href$='.m4
 	background: transparent url(icons/icon_music.gif) no-repeat center right;
 }
 
-/* messenger */
-a[href ^="aim:"] {
-	padding: 5px 20px 5px 0;
-    background: transparent url(icons/icon_aim.gif) no-repeat center right;
-}
-
-a[href ^="msnim:"] {
-	padding: 5px 20px 5px 0;
-    background: transparent url(icons/icon_msn.gif) no-repeat center right;
-}
-
-a[href ^="xmpp:"] {
-	padding: 5px 20px 5px 0;
-    background: transparent url(icons/icon_jabber.gif) no-repeat center right;
-}
-
-a[href *="icq.com"] { 
-	padding: 5px 20px 5px 0;
-	background: transparent url(icons/icon_icq.gif) no-repeat center right;
-}
-
-a[href *="edit.yahoo.com/config/send_webmesg?"] { 
-	padding: 5px 20px 5px 0;
-	background: transparent url(icons/icon_yim.gif) no-repeat center right;
-}
-
-a[href ^="callto:"] {
-	padding: 5px 20px 5px 0;
-    background: transparent url(icons/icon_call.gif) no-repeat center right;
-}
-
-a[href ^="skype:"] {
-	padding: 5px 20px 5px 0;
-    background: transparent url(icons/icon_skype.gif) no-repeat center right;
-}
-
-a[href ^="gg:"] {
-	padding: 5px 20px 5px 0;
-    background: transparent url(icons/icon_gadugadu.gif) no-repeat center right;
-}
-
-/* email */
-a[href ^="mailto:"] {
-	padding: 5px 20px 5px 0;
-    background: transparent url(icons/icon_mailto.gif) no-repeat center right;
-}
-
-/* use this class to make sure that images won't get iconized */
-
-.imageLink {
-	padding-right: 0px !important;
-	background: none !important;
-}

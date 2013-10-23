@@ -1,0 +1,6 @@
+/* use this class to make sure that images won't get iconized */
+
+.imageLink {
+	padding-right: 0px !important;
+	background: none !important;
+}
