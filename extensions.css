@@ -30,11 +30,6 @@ a[href$='.phps'] {
 	background: transparent url(icons/icon_phps.gif) no-repeat center right;
 }
 
-a[href$='.phps'] { 
-	padding: 5px 20px 5px 0;
-	background: transparent url(icons/icon_phps.gif) no-repeat center right;
-}
-
 a[href$='.torrent'] { 
 	padding: 5px 20px 5px 0;
 	background: transparent url(icons/icon_torrent.gif) no-repeat center right;
@@ -75,7 +70,7 @@ a[href$='.fla'], a[href$='.swf'] {
 	background: transparent url(icons/icon_flash.gif) no-repeat center right;
 }
 
-a[href$='.zip'], a[href$='.rar'], a[href$='.gzip'], a[href$='.bzip'], a[href$='.ace'] { 
+a[href$='.zip'], a[href$='.rar'], a[href$='.tar.gz'], a[href$='.gzip'], a[href$='.bzip'], a[href$='.ace'] { 
 	padding: 5px 20px 5px 0;
 	background: transparent url(icons/icon_archive.gif) no-repeat center right;
 }
@@ -100,7 +95,7 @@ a[href$='.jpg'], a[href$='.gif'], a[href$='.png'], a[href$='.bmp'], a[href$='.jp
 	background: transparent url(icons/icon_pic.gif) no-repeat center right;
 }
 
-a[href$='.mov'], a[href$='.wmv'], a[href$='.mp4'], a[href$='.avi'], a[href$='.mpg'] { 
+a[href$='.mov'], a[href$='.wmv'], a[href$='.mp4'], a[href$='.avi'], a[href$='.mpg'], a[href$='.mkv'], a[href$='.flv'] { 
 	padding: 5px 20px 5px 0;
 	background: transparent url(icons/icon_film.gif) no-repeat center right;
 }
