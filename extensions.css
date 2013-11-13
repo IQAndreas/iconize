@@ -30,11 +30,6 @@ a[href$='.phps'] {
 	background: transparent url(icons/icon_phps.gif) no-repeat center right;
 }
 
-a[href$='.phps'] { 
-	padding: 5px 20px 5px 0;
-	background: transparent url(icons/icon_phps.gif) no-repeat center right;
-}
-
 a[href$='.torrent'] { 
 	padding: 5px 20px 5px 0;
 	background: transparent url(icons/icon_torrent.gif) no-repeat center right;
